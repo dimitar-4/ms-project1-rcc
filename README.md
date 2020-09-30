@@ -4,7 +4,8 @@
 
 Retro Cars Club is a website for old cars enthusiasts. It is design to be responsive 
 on all sorts of devises so that the users can easily navigate their way to the 
-information they need and also provided with options such as becoming a MEMBER!
+information they need and also provided with other options such as getting to 
+know activities of the club and becoming a MEMBER!
 
 Retro Cars Club is a small club of people who have a passion for restoration and love 
 turning a pile of rust to a favourite place when on the road.The club is located in 

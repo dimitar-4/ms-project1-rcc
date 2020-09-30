@@ -1,41 +1,42 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Rerto Cars Club
 
-Welcome USER_NAME,
+<!--- add links to all RCCs --->
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Retro Cars Club is a website for old cars enthusiasts. It is design to be responsive 
+on all sorts of devises so that the users can easily navigate their way to the 
+information they need and also provided with options such as becoming a MEMBER!
 
-## Gitpod Reminders
+Retro Cars Club is a small club of people who have a passion for restoration and love 
+turning a pile of rust to a favourite place when on the road.The club is located in 
+the Ostergotland region in Sweden.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+Retro Cars Club is a place where classic, retro or just old cars enthusiasts, car
+photographers, fans as well as any car lover can visit to learn more about:
+ <ul>
+ <li>The Club</li>
+ <li>Annual Gatherings and Meetings</li>
+ <li>Check Out Some Finished Projects</li>
+ <li>BECOME A MEMBER!</li>
+ </ul>
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+### Wireframes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: *Make Public*,
+## Technologies Used
 
-Another blue button should appear to click: *Open Browser*.
+## Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Deployment
 
-## Updates Since The Instructional Video
+## Credits
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Content
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
+### Media
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknowledgements

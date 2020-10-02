@@ -48,6 +48,7 @@ photographers, fans as well as any car lover can visit to learn more about:
  <li>HTML</li>
  <li>CSS</li>
  <li>Bootstrap v4.5.2</li>
+ <li>Font Awesome</li>
 </ol>
 
 ## Testing

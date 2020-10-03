@@ -1,60 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
 
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #d6d6d6;
+}
+
+.divider {
+  background: #be9c91;
+  height: 5px;
+  border: 0;
+  width: 100%;
 }
 
 /*========= Headings ========*/
 
 .headings {
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
 /* Header */
 
+header {
+  background-color: #d6d6d6;
+}
+
 header nav h2 {
-    font-size: 1.3rem;
-    margin-bottom: 0;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+header nav div ul li a:hover {
+  border-bottom: 2px solid #be9c91;
+}
+
+/* Section */
+
+section {
+  margin-top: 25px;
+  background-color: #d6d6d6;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.img-text {
 }
 
 /*========== Footer =========*/
 
 footer {
-    background-color: #767676;
-    color: #fafafa;
+  background-color: #767676;
+  color: #fafafa;
+  margin-top: 25px;
+  margin-bottom: 0;
 }
 
 footer h3 {
-    padding-top: 20px;
-}
-
-.divider {
-    background: #be9c91;
-    height: 5px;
-    border: 0;
-    width: 70%;
+  padding-top: 20px;
 }
 
 footer p {
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 /* Social networks style was borrowed from Love Running project */
-.social-networks{
+.social-networks {
   text-align: center;
   padding: 0;
 }
 
-.social-networks li{
+.social-networks li {
   display: inline;
 }
 
-.social-networks i{
+.social-networks i {
   font-size: 200%;
   margin: 1%;
   padding: 5%;
@@ -62,5 +88,5 @@ footer p {
 }
 
 .social-networks li a i:hover {
-    color:  #be9c91;
+  color: #be9c91;
 }

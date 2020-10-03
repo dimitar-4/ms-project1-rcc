@@ -38,6 +38,8 @@ photographers, fans as well as any car lover can visit to learn more about:
  on ideas and ways to finish my projects.</li>
  </ul>
 
+ ### Design
+
 ### Wireframes
 
 ## Features
@@ -49,6 +51,8 @@ photographers, fans as well as any car lover can visit to learn more about:
  <li>CSS</li>
  <li>Bootstrap v4.5.2</li>
  <li>Font Awesome</li>
+ <li>Balsamiq</li>
+ <li>Google Fonts</li>
 </ol>
 
 ## Testing

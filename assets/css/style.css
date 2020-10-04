@@ -32,11 +32,13 @@ header {
 header nav h2 {
   font-size: 1.3rem;
   margin-bottom: 0;
+  letter-spacing: 1px;
 }
 
 .navitem-style {
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
+  font-size: large;
 }
 
 .navbar .navbar-toggler {
@@ -47,18 +49,14 @@ header nav div ul li a:hover {
   border-bottom: 2px solid #be9c91;
 }
 
-header hr {
-  margin: 0;
-}
-
-/* Section */
+/* Section Home */
 
 section {
   margin-top: 25px;
   background-color: #d6d6d6;
 }
 
-section h2 {
+section h1 {
   text-align: center;
   margin-bottom: 25px;
   letter-spacing: 4px;
@@ -79,7 +77,34 @@ section h2 {
   color: #fafafa;
   background-color: #767676;
   padding: 20px 0;
+  border-top: 3px solid #be9c91;
 }
+
+/* Section Gallery */
+
+section div div p {
+    margin-bottom: 0;
+}
+
+section div div p a {
+    color: #be9c91;
+    letter-spacing: 1px;
+}
+
+section div div p a:hover {
+    color: #767676;
+    background-color: #be9c91;
+}
+
+.card-gallery {
+    border: 3px solid #be9c91;
+    border-radius: 0;
+    border-bottom: none;
+    text-align: center;
+    color: #fafafa;
+    background-color: #767676;
+}
+
 
 /*========== Footer =========*/
 
@@ -95,6 +120,7 @@ footer {
 
 footer div h3 {
   padding-top: 20px;
+  letter-spacing: 1px;
 }
 
 footer div p {

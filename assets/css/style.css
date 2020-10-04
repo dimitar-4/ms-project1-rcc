@@ -7,7 +7,7 @@ body {
 
 .divider {
   background: #be9c91;
-  height: 5px;
+  height: 3px;
   border: 0;
   width: 100%;
 }
@@ -25,13 +25,30 @@ header {
   background-color: #d6d6d6;
 }
 
+.nav-style {
+  border: 3px solid #be9c91;
+}
+
 header nav h2 {
   font-size: 1.3rem;
   margin-bottom: 0;
 }
 
+.navitem-style {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.navbar .navbar-toggler {
+  outline: none;
+}
+
 header nav div ul li a:hover {
   border-bottom: 2px solid #be9c91;
+}
+
+header hr {
+  margin: 0;
 }
 
 /* Section */
@@ -41,28 +58,46 @@ section {
   background-color: #d6d6d6;
 }
 
+section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 4px;
+}
+
+.card-style {
+  border: 3px solid #be9c91;
+  border-radius: 0;
+}
+
 .hero-img {
   width: 100%;
   display: block;
 }
 
 .img-text {
+  text-align: center;
+  color: #fafafa;
+  background-color: #767676;
+  padding: 20px 0;
 }
 
 /*========== Footer =========*/
 
 footer {
-  background-color: #767676;
   color: #fafafa;
   margin-top: 25px;
-  margin-bottom: 0;
 }
 
-footer h3 {
+.footer-style {
+  background-color: #767676;
+  border: 3px solid #be9c91;
+}
+
+footer div h3 {
   padding-top: 20px;
 }
 
-footer p {
+footer div p {
   text-align: center;
   margin-bottom: 0;
   margin-top: 20px;
@@ -70,10 +105,12 @@ footer p {
   font-weight: 300;
 }
 
-/* Social networks style was borrowed from Love Running project */
+/* Social networks style is used from the "Love Running" project */
+
 .social-networks {
   text-align: center;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .social-networks li {

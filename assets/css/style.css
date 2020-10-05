@@ -74,9 +74,21 @@ section h1 {
   letter-spacing: 4px;
 }
 
-.card-style {
+.content-style {
   border: 3px solid #be9c91;
   border-radius: 0;
+  margin: 0;
+}
+
+.events-style {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.events-style p {
+    color: #fafafa;
+    background-color: #767676;
+    border: 3px solid #be9c91;
 }
 
 .hero-img {
@@ -90,6 +102,19 @@ section h1 {
   background-color: #767676;
   padding: 20px 0;
   border-top: 3px solid #be9c91;
+}
+
+/* Section Activities */
+
+.events-style h3 a {
+    font-size: medium;
+    text-decoration: none;
+    color: #767676;
+}
+
+.events-style h3 a:hover {
+    color: #be9c91;
+    background-color: #767676;
 }
 
 /* Section Gallery */

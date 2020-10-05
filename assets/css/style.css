@@ -80,17 +80,6 @@ section h1 {
   margin: 0;
 }
 
-.events-style {
-    text-align: center;
-    padding: 25px 0;
-}
-
-.events-style p {
-    color: #fafafa;
-    background-color: #767676;
-    border: 3px solid #be9c91;
-}
-
 .hero-img {
   width: 100%;
   display: block;
@@ -100,11 +89,23 @@ section h1 {
   text-align: center;
   color: #fafafa;
   background-color: #767676;
-  padding: 20px 0;
+  padding: 20px 10px;
   border-top: 3px solid #be9c91;
 }
 
 /* Section Activities */
+
+.events-style {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.events-style p {
+    color: #fafafa;
+    background-color: #767676;
+    border: 3px solid #be9c91;
+    padding: 10px;
+}
 
 .events-style h3 a {
     font-size: medium;

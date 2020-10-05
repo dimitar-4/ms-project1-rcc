@@ -49,7 +49,19 @@ header nav div ul li a:hover {
   border-bottom: 2px solid #be9c91;
 }
 
-/* Section Home */
+ /* Text links */          
+
+.text-links {
+    color: #be9c91;
+    letter-spacing: 1px;
+}
+
+.text-links:hover {
+    color:#fafafa;
+    text-decoration: none;
+}
+
+/* Section */
 
 section {
   margin-top: 25px;
@@ -84,16 +96,6 @@ section h1 {
 
 section div div p {
     margin-bottom: 0;
-}
-
-section div div p a {
-    color: #be9c91;
-    letter-spacing: 1px;
-}
-
-section div div p a:hover {
-    color: #767676;
-    background-color: #be9c91;
 }
 
 .card-gallery {
@@ -131,7 +133,7 @@ footer div p {
   font-weight: 300;
 }
 
-/* Social networks style is used from the "Love Running" project */
+/* Social networks css code is used from the "Love Running" project */
 
 .social-networks {
   text-align: center;

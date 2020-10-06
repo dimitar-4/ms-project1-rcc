@@ -42,7 +42,7 @@ header nav h2 {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     position: absolute;
-    top: 200px;
+    top: 220px;
     z-index: 1;
     color: #fafafa;
     text-align: center;
@@ -72,15 +72,17 @@ header nav h2 {
 
 /* Section */
 
+.section-heading {
+    margin: 25px 0;
+    letter-spacing: 4px;
+    border-bottom: 5px solid #be9c91;
+    padding-bottom: 20px;
+}
+
 .section-style {
   padding: 0;
   background-color: #4e4e4e;
   color: #fafafa;
-}
-
-section h1 {
-    margin: 25px 0;
-    letter-spacing: 4px;
 }
 
 .content-style {
@@ -108,7 +110,6 @@ section h1 {
 .events-style {
     text-align: center;
     padding: 25px 0;
-    border-top: 5px solid #be9c91;
 }
 
 .events-style p {
@@ -138,8 +139,6 @@ section div div p {
     text-align: center;
     color: #fafafa;
     background-color: #4e4e4e;
-    border-top: 5px solid #be9c91;
-    border-radius: 0;
 }
 
 /* Divider */

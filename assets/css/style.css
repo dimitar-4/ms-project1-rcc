@@ -9,7 +9,7 @@ body {
 
 .header-style {
   background-color: #be9c91;
-  color: #4e4e4e;
+  color: #2b2b2b;
   padding: 0;
 }
 
@@ -32,6 +32,8 @@ header nav h2 {
 
 .navbar .navbar-toggler {
   outline: none;
+  color: #2b2b2b;
+  border-color: #2b2b2b;
 }
 
 
@@ -49,7 +51,8 @@ header nav h2 {
     width: 100%;
     padding: 20px;
     background: rgba(0,0,0,0.5);
-    font-size: 3.2vw;
+    font-size: 4vw;
+    letter-spacing: 1px;
 }
 
 .headings {
@@ -154,7 +157,7 @@ section div div p {
 /*========== Footer =========*/
 
 .footer-style {
-  color: #4e4e4e;
+  color: #2b2b2b;
   background-color: #be9c91;
   padding: 0;
 }
@@ -191,7 +194,7 @@ footer div p {
 .social-networks i {
   font-size: 200%;
   padding: 1% 5%;
-  color: #4e4e4e;
+  color: #2b2b2b;
 }
 
 .social-networks li a i:hover {

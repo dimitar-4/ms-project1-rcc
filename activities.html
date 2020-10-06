@@ -20,46 +20,36 @@
   </head>
 
   <body>
-    <header class="container-fluid">
-      <!--  The main code for the navigation menu is from Bootstrap -->
+    <header class="container-fluid header-style">
 
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-transparent nav-style"
-      >
-        <a class="navbar-brand" href="index.html">
-          <h2 class="headings">RETRO CARS CLUB</h2>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto navitem-style">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="activities.html"
-                >Activities <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="join.html">Join Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+		<!--  The main code for the navigation menu is from Bootstrap -->
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="index.html">
+				<h2 class="headings">RETRO CARS CLUB</h2>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item navitem-style">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item navitem-style active">
+						<a class="nav-link" href="activities.html">Activities<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item navitem-style">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item navitem-style">
+						<a class="nav-link" href="join.html">Join Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	</header>
 
     <section class="container-fluid">
       <h1 class="headings">Activities</h1>
@@ -120,32 +110,20 @@
     </section>
 
     <!-- The footer code is from bootsrap and social links code is taken from the "Love Running" project -->
-    <footer class="container-fluid">
-      <div class="footer-style">
-        <h3 class="text-center headings">
-          Nothing Is Awesome Than a Classic Car!
-        </h3>
-        <hr class="divider" />
-        <p>You Can Also Find Us On Social Media:</p>
-        <ul class="text-center social-networks">
-          <li>
-            <a href="https://www.facebook.com" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com" target="_blank"
-              ><i class="fab fa-youtube"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <footer class="container-fluid footer-style">
+
+		<div>
+			<h3 class="text-center headings">Nothing Is Awesome Than a Classic Car!</h3>
+			<hr class="divider">
+			<p>You Can Also Find Us On Social Media:</p>
+			<ul class="text-center social-networks">
+				<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+
+	</footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

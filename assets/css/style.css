@@ -5,28 +5,12 @@ body {
   background-color: #d6d6d6;
 }
 
-.divider {
-  background: #be9c91;
-  height: 3px;
-  border: 0;
-  width: 100%;
-}
-
-/*========= Headings ========*/
-
-.headings {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-}
-
 /* Header */
 
-header {
-  background-color: #d6d6d6;
-}
-
-.nav-style {
-  border: 3px solid #be9c91;
+.header-style {
+  background-color: #be9c91;
+  color: #4e4e4e;
+  padding: 0;
 }
 
 header nav h2 {
@@ -41,12 +25,21 @@ header nav h2 {
   font-size: large;
 }
 
+.navitem-style a:hover {
+  background-color: #d6d6d6;
+}
+
 .navbar .navbar-toggler {
   outline: none;
 }
 
-header nav div ul li a:hover {
-  border-bottom: 2px solid #be9c91;
+
+
+/*========= Headings ========*/
+
+.headings {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
  /* Text links */          
@@ -88,7 +81,7 @@ section h1 {
 .img-text {
   text-align: center;
   color: #fafafa;
-  background-color: #767676;
+  background-color: #4e4e4e;
   padding: 20px 10px;
   border-top: 3px solid #be9c91;
 }
@@ -102,7 +95,7 @@ section h1 {
 
 .events-style p {
     color: #fafafa;
-    background-color: #767676;
+    background-color: #4e4e4e;
     border: 3px solid #be9c91;
     padding: 10px;
 }
@@ -110,12 +103,12 @@ section h1 {
 .events-style h3 a {
     font-size: medium;
     text-decoration: none;
-    color: #767676;
+    color: #4e4e4e;
 }
 
 .events-style h3 a:hover {
     color: #be9c91;
-    background-color: #767676;
+    background-color: #4e4e4e;
 }
 
 /* Section Gallery */
@@ -130,20 +123,23 @@ section div div p {
     border-bottom: none;
     text-align: center;
     color: #fafafa;
-    background-color: #767676;
+    background-color: #4e4e4e;
+}
+
+.divider {
+  background: #4e4e4e;
+  height: 5px;
+  border: 0;
+  width: 100%;
 }
 
 
 /*========== Footer =========*/
 
-footer {
-  color: #fafafa;
-  margin-top: 25px;
-}
-
 .footer-style {
-  background-color: #767676;
-  border: 3px solid #be9c91;
+  color: #4e4e4e;
+  background-color: #be9c91;
+  padding: 0;
 }
 
 footer div h3 {
@@ -156,14 +152,14 @@ footer div p {
   margin-bottom: 0;
   margin-top: 20px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* Social networks css code is used from the "Love Running" project */
 
 .social-networks {
   text-align: center;
-  padding: 0;
+  padding:0 0 25px 0;
   margin-bottom: 0;
 }
 
@@ -173,11 +169,10 @@ footer div p {
 
 .social-networks i {
   font-size: 200%;
-  margin: 1%;
-  padding: 5%;
-  color: #fafafa;
+  padding: 1% 5%;
+  color: #4e4e4e;
 }
 
 .social-networks li a i:hover {
-  color: #be9c91;
+  color: #fafafa;
 }

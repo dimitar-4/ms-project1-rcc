@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #d6d6d6;
+  background-color:  #4e4e4e;
 }
 
 /* Header */
@@ -23,10 +23,11 @@ header nav h2 {
   font-weight: 500;
   letter-spacing: 1px;
   font-size: large;
+
 }
 
 .navitem-style a:hover {
-  background-color: #d6d6d6;
+  background-color: #fafafa;
 }
 
 .navbar .navbar-toggler {
@@ -37,9 +38,24 @@ header nav h2 {
 
 /*========= Headings ========*/
 
+.hero-heading {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    font-size: 3.2vw;
+}
+
 .headings {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
+  text-align: center;
 }
 
  /* Text links */          
@@ -56,26 +72,28 @@ header nav h2 {
 
 /* Section */
 
-section {
-  margin-top: 25px;
-  background-color: #d6d6d6;
+.section-style {
+  padding: 0;
+  background-color: #4e4e4e;
+  color: #fafafa;
 }
 
 section h1 {
-  text-align: center;
-  margin-bottom: 25px;
-  letter-spacing: 4px;
+    margin: 25px 0;
+    letter-spacing: 4px;
 }
 
 .content-style {
-  border: 3px solid #be9c91;
-  border-radius: 0;
   margin: 0;
+  border: 0;
+  background-color: #4e4e4e;
+  color: #be9c91;
 }
 
 .hero-img {
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 .img-text {
@@ -83,7 +101,6 @@ section h1 {
   color: #fafafa;
   background-color: #4e4e4e;
   padding: 20px 10px;
-  border-top: 3px solid #be9c91;
 }
 
 /* Section Activities */
@@ -91,24 +108,23 @@ section h1 {
 .events-style {
     text-align: center;
     padding: 25px 0;
+    border-top: 5px solid #be9c91;
 }
 
 .events-style p {
     color: #fafafa;
-    background-color: #4e4e4e;
-    border: 3px solid #be9c91;
     padding: 10px;
 }
 
 .events-style h3 a {
     font-size: medium;
     text-decoration: none;
-    color: #4e4e4e;
+    color: #be9c91;
 }
 
 .events-style h3 a:hover {
-    color: #be9c91;
-    background-color: #4e4e4e;
+    color: #4e4e4e;
+    background-color:#be9c91;
 }
 
 /* Section Gallery */
@@ -118,13 +134,15 @@ section div div p {
 }
 
 .card-gallery {
-    border: 3px solid #be9c91;
-    border-radius: 0;
-    border-bottom: none;
+    border: 0;
     text-align: center;
     color: #fafafa;
     background-color: #4e4e4e;
+    border-top: 5px solid #be9c91;
+    border-radius: 0;
 }
+
+/* Divider */
 
 .divider {
   background: #4e4e4e;
@@ -144,11 +162,15 @@ section div div p {
 
 footer div h3 {
   padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 
 footer div p {
   text-align: center;
+  padding: 0 10px;
   margin-bottom: 0;
   margin-top: 20px;
   font-size: 20px;

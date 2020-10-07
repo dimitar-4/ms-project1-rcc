@@ -26,11 +26,6 @@ header nav h2 {
     font-size: large;
 }
 
-.navitem-style a:hover {
-    background-color: #fafafa;
-    border: 1px solid #2b2b2b;
-}
-
 .navbar .navbar-toggler {
     outline: none;
     color: #2b2b2b;
@@ -43,7 +38,7 @@ header nav h2 {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     position: absolute;
-    top: 240px;
+    top: 185px;
     z-index: 1;
     color: #fafafa;
     text-align: center;
@@ -88,7 +83,7 @@ header nav h2 {
 }
 
 .content-style {
-    margin: 0;
+    margin: 30px 0;
     border: 0;
     background-color: #4e4e4e;
     color: #f57c00;
@@ -107,7 +102,7 @@ header nav h2 {
     text-align: center;
     color: #fafafa;
     background-color: #4e4e4e;
-    padding: 20px 10px;
+    padding: 50px 10px;
 }
 
 /* Activities */
@@ -118,8 +113,12 @@ header nav h2 {
 }
 
 .events-style p {
-    color: #fafafa;
-    padding: 10px;
+    color: #2b2b2b;
+    background: #fafafa;
+    margin: 16px 0;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 3px black;
+    padding: 5px;
 }
 
 .events-style h3 a {
@@ -190,9 +189,9 @@ header nav h2 {
     margin: 50px 25px;
     background-color: #f57c00;
     color: #2b2b2b;
-    width: 50%;
+    width: 40%;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
     border: 2px solid #fafafa;
 }
@@ -200,7 +199,7 @@ header nav h2 {
 .btn-style:hover {
     color: #fafafa;
     background-color: #4e4e4e;
-    border: 3px solid #f57c00;
+    border: 2px solid #f57c00;
 }
 
 /*========== Footer =========*/
@@ -256,5 +255,5 @@ footer div p {
     background: #4e4e4e;
     height: 5px;
     border: 0;
-    width: 100%;
+    width: 90%;
 }

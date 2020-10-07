@@ -8,7 +8,7 @@ body {
 /* Header */
 
 .header-style {
-  background-color: #be9c91;
+  background-color: #f57c00;
   padding: 0;
 }
 
@@ -45,14 +45,14 @@ header nav h2 {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     position: absolute;
-    top: 220px;
+    top: 240px;
     z-index: 1;
     color: #fafafa;
     text-align: center;
     width: 100%;
     padding: 20px;
-    background: rgba(0,0,0,0.5);
-    font-size: 4vw;
+    background: rgba(78,78,78,0.7);
+    font-size: 3.5vw;
     letter-spacing: 1px;
 }
 
@@ -65,7 +65,7 @@ header nav h2 {
  /* Text links */          
 
 .text-links {
-    color: #be9c91;
+    color: #f57c00;
     letter-spacing: 1px;
 }
 
@@ -77,9 +77,9 @@ header nav h2 {
 /* Section */
 
 .section-heading {
-    margin: 25px 0;
+    margin: 25px 0 0 0;
     letter-spacing: 4px;
-    border-bottom: 5px solid #be9c91;
+    border-bottom: 5px solid #f57c00;
     padding-bottom: 20px;
 }
 
@@ -93,13 +93,16 @@ header nav h2 {
   margin: 0;
   border: 0;
   background-color: #4e4e4e;
-  color: #be9c91;
+  color: #f57c00;
 }
 
 .hero-img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
+  max-width: 1200px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 700px;
+    padding-top: 25px;
 }
 
 .img-text {
@@ -124,7 +127,7 @@ header nav h2 {
 .events-style h3 a {
     font-size: medium;
     text-decoration: none;
-    color: #be9c91;
+    color: #f57c00;
 }
 
 .events-style h3 a:hover {
@@ -134,15 +137,21 @@ header nav h2 {
 
 /* Gallery */
 
-section div div p {
-    margin-bottom: 0;
-}
-
 .card-gallery {
     border: 0;
     text-align: center;
     color: #fafafa;
     background-color: #4e4e4e;
+}
+
+.p-gallery-style {
+    margin-bottom: 0;
+}
+
+.carousel-style {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 25px;
 }
 
 /* Join Us */
@@ -172,7 +181,7 @@ section div div p {
 
 .footer-style {
   color: #2b2b2b;
-  background-color: #be9c91;
+  background-color: #f57c00;
   padding: 0;
 }
 

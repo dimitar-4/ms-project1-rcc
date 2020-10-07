@@ -1,149 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Retro Cars Club</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
-      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Retro Cars Club</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
 
-  <body>
-    <header class="container-fluid header-style">
+    <body>
+        <header class="container-fluid header-style">
+            <!--  The main code for the navigation menu is from Bootstrap -->
 
-		<!--  The main code for the navigation menu is from Bootstrap -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <h2 class="headings">RETRO CARS CLUB</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item navitem-style">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item navitem-style active">
+                            <a class="nav-link" href="activities.html">Activities<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item navitem-style">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item navitem-style">
+                            <a class="nav-link" href="join.html">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="index.html">
-				<h2 class="headings">RETRO CARS CLUB</h2>
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item navitem-style">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item navitem-style active">
-						<a class="nav-link" href="activities.html">Activities<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item navitem-style">
-						<a class="nav-link" href="gallery.html">Gallery</a>
-					</li>
-					<li class="nav-item navitem-style">
-						<a class="nav-link" href="join.html">Join Us</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+        <section class="container-fluid section-style">
+            <h1 class="headings section-heading">Activities</h1>
+            <!-- Activities code is used from the "Whiskey Drop" project and also uses bootstrap -->
+            <div class="row content-style">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="events-style">
+                        <h3 class="headings"><i class="fas fa-trophy d-none d-sm-block"></i> Annual Gathering</h3>
+                        <p>
+                            Every year we organize an Annual Gathering. There we present our projects and announce the best restoration work of the year. Until the next show the winner car stands on our website's
+                            <a href="index.html" class="text-links">home</a> page. <br />
+                            The date for the event every year is the 6th of June (Swedens National Day). <br />
+                            The place is "Bruksparken" park in Finspang, Sweden.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="events-style">
+                        <h3 class="headings"><i class="fas fa-car d-none d-sm-block"></i> Hall Exhibition</h3>
+                        <p>
+                            Once per year, on the 27th of December we make our Hall Exhibition. <br />
+                            The location is RCC (Retro Cars Club) Hall near Finspang's stadium. <br />
+                            There is no entry fee. Everyone can visit and talk to the car owners or take some great photos and take a good look on the vehicles that we store in our hall.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="events-style">
+                        <h3 class="headings">
+                            <i class="fas fa-users d-none d-sm-block"></i> Club Meetings
+                            <br />
+                            <a href="join.html">Members Only!</a>
+                        </h3>
+                        <p>
+                            The club meetings are only for our members. <br />
+                            On the meeting we talk about our projects, cars, parts, share opinions and advices, help eachother how we can and having a great time together. <br />
+                            We also make plans on meeting other clubs and sharing events or just follow the best plan - HIT THE ROAD!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="events-style">
+                        <h3 class="headings">
+                            <i class="fas fa-camera-retro d-none d-sm-block"></i> Photo Session
+                            <br />
+                            <a href="join.html">Members Only!</a>
+                        </h3>
+                        <p>
+                            You can book a personal event with us. <br />
+                            We offer photo sessions indoor and outdoor that can be for car magazine, wedding or other special events photos and for personal use. <br />
+                            The booking is during a club meeting directly with the owner of the chosen car for the session.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-	</header>
+        <!-- The footer code is from bootsrap and social links code is taken from the "Love Running" project -->
+        <footer class="container-fluid footer-style">
+            <div>
+                <h3 class="text-center headings">Nothing Is Awesome Than a Classic Car!</h3>
+                <hr class="divider" />
+                <p>You Can Also Find Us On Social Media:</p>
+                <ul class="text-center social-networks">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 
-    <section class="container-fluid section-style">
-      <h1 class="headings section-heading">Activities</h1>
-      <!-- Activities code is used from the "Whiskey Drop" project and also uses bootstrap -->
-      <div class="row content-style">
-        <div class="col-12 col-md-6 col-lg-6">
-          <div class="events-style">
-            <h3 class="headings"><i class="fas fa-trophy d-none d-sm-block"></i> Annual Gathering</h3>
-            <p>
-              Every year we organize an Annual Gathering. 
-                 There we present our projects and announce the best restoration work of the year. 
-                 Until the next show the winner car stands on our website's 
-                 <a href="index.html" class="text-links">home</a> page. <br> The date for the event 
-                 every year is the 6th of June (Swedens National Day). <br> The place is "Bruksparken" 
-                 park in Finspang, Sweden.   
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <div class="events-style">
-            <h3 class="headings">
-              <i class="fas fa-car d-none d-sm-block"></i> Hall Exhibition
-            </h3>
-            <p>
-              Once per year, on the 27th of December we make our Hall Exhibition. <br> 
-              The location is RCC (Retro Cars Club) Hall near Finspang's stadium. <br> There is no entry fee. Everyone 
-              can visit and talk to the car owners or take some great photos and take a good look on the vehicles 
-               that we store in our hall. 
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <div class="events-style">
-            <h3 class="headings">
-              <i class="fas fa-users d-none d-sm-block"></i> Club Meetings
-           <br>
-           <a href="join.html">Members Only!</a> </h3>
-            <p>
-              The club meetings are only for our members. <br> On the meeting we talk about 
-              our projects, cars, parts, share opinions and advices, help eachother how we can and 
-              having a great time together. <br>
-              We also make plans on meeting other clubs and sharing events or just follow the best plan 
-              - HIT THE ROAD!     
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-6">
-          <div class="events-style">
-            <h3 class="headings">
-              <i class="fas fa-camera-retro d-none d-sm-block"></i> Photo Session
-           <br>
-           <a href="join.html">Members Only!</a> </h3>
-            <p>
-              You can book a personal event with us. <br>
-              We offer photo sessions indoor and outdoor that can be for car magazine, 
-              wedding or other special events photos and for personal use. <br>
-              The booking is during a club meeting directly with the owner of the 
-              chosen car for the session. 
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- The footer code is from bootsrap and social links code is taken from the "Love Running" project -->
-    <footer class="container-fluid footer-style">
-
-		<div>
-			<h3 class="text-center headings">Nothing Is Awesome Than a Classic Car!</h3>
-			<hr class="divider">
-			<p>You Can Also Find Us On Social Media:</p>
-			<ul class="text-center social-networks">
-				<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-				<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-				<li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-			</ul>
-		</div>
-
-	</footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>

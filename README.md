@@ -137,7 +137,7 @@ Devices tested:
 
 ### Problems
 
-When testing the responsiveness there was an issue found with the heading standing on the hero image in the home page.
+- When testing the responsiveness there was an issue found with the heading standing on the hero image in the home page.
 The problem is on devices with screen width under 300px. The heading is going down and covers the text bellow the image.
 Could't make it to remain on the hero image as intended.     
 
@@ -178,4 +178,6 @@ All of the code not written by the developer in Retro Cars Club's website is fur
 
 * The inspiration for this project came from my own passion for all types of vehicles.
 * Akshat Garg (Mentor) - for the advices and feedback on my project.
-* Slack platform - for just being there with so many answers.
+* Slack platform for just being there with so many answers.
+* StackOverflow for helping solve problem like fixing my footer to be at the bottom on all types of devices:
+   * solution found in the first answer in [this page!](https://stackoverflow.com/questions/40853952/bootstrap-footer-at-the-bottom-of-the-page)

@@ -103,6 +103,8 @@ and answers the search for the new and frequent visitors to reach their personal
 
 The signing form responds with warning messages if it is not filled correctly. 
 
+The social media links in the footer provide the users with further knowledge and content on the subject to explore.
+
 * The project was shared with family and friend to be tested on different devises as well as to collect data 
 about their actual user experience. There was a positive feedback and conformation for the user experience testing above.
 
@@ -134,6 +136,13 @@ Devices tested:
    * Acer B7 series-B277(Desktop Monitor)
 
    No problems were shown on tested devices.
+
+### Links tested
+
+- All inner links were tested - no problems found.
+- All social media link lead to their home pages because Retro Cars Club is fictional 
+and there is no content for it on social media networks.  
+
 
 ### Problems
 

@@ -15,7 +15,6 @@ know different activities of the club and signing up.
 
 
 ## User Experience (UX)
---- 
  
 ### User Stories
 
@@ -48,7 +47,6 @@ know different activities of the club and signing up.
 
 ---
 ## Features
----
 
 The website is responsive on all tested devices. 
 
@@ -60,7 +58,6 @@ The website is responsive on all tested devices.
 
 ---
 ## Technologies Used
----
 
  - HTML
  - CSS
@@ -87,7 +84,6 @@ The website is responsive on all tested devices.
 
 ---
 ## Testing
----
 
 ### User Experience Testing
 
@@ -147,7 +143,6 @@ Could't make it to remain on the hero image as intended.
 
 ---
 ## Deployment
----
 
 To deploy the website to GitHub Pages from its GitHub repository, the following steps were taken:
 
@@ -161,10 +156,26 @@ To deploy the website to GitHub Pages from its GitHub repository, the following 
 
 ---
 ## Credits
----
 
 ### Content
 
+- All the text in the content of the website is written by me.
+   * The slogan in the footer is from commonly used stickers on classic cars like [this one!](https://s.cdnmpro.com/660674058/p/m/4/tablou-nothing-is-awesome-than-a-classic-car~6314.jpg)
+- Bootstrap grid was used throughout all pages of the project and code for components like:
+   * Navigation bar, cards, carousel, form.  
+- The code for the events in the Activities page is taken from the "Whiskey Drop" project from the Code Institute's studying program.
+- The code for the footer's social links is taken from the "Love Running" project from the Code Institute's studying program.
+- The media query code for the form responsiveness in the Join Us page is from the "ucd-resume" project from the Code Institute's studying program.
+
+All of the code not written by the developer in Retro Cars Club's website is further developed with HTML and CSS languages so it can fit the design of the project. 
+
+
 ### Media
 
+* All the photos used in the project were taken by the me (the developer).
+
 ### Acknowledgements
+
+* The inspiration for this project came from my own passion for all types of vehicles.
+* Akshat Garg (Mentor) - for the advices and feedback on my project.
+* Slack platform - for just being there with so many answers.

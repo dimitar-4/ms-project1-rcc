@@ -4,9 +4,9 @@
 
 [Live link here.](https://dimitar-4.github.io/ms-project1-rcc/) 
 
-This is a website for classic cars enthusiasts. It is design to be responsive
+This is a website for classic cars enthusiasts. It is designed to be responsive
 on all sorts of devises so that the users can easily navigate their way to the
-information they need and also provided with more options such as getting to
+information they need and also provide more options such as getting to
 know different activities of the club and signing up.
 
 ![responsive-img](assets/responsive-img/responsive.PNG)
@@ -22,7 +22,7 @@ know different activities of the club and signing up.
  * As a classic car enthusiast I want to easily learn about a place for restored cars.
  * As a fan of all types of vehicles I want to see photos of restored old cars.
  * As a retro car owner I want to find others that share the same 
- experience and passion for drivig old car models.
+ experience and passion for driving old car models.
  * As a car photographer I'm interested in learning about event where I can make 
  some great photos. 
  
@@ -59,8 +59,8 @@ The website is responsive on all tested devices.
 ---
 ## Technologies Used
 
- - HTML
- - CSS
+ - HTML 5
+ - CSS 3
  - Bootstrap v4.5.2 
     * Bootstrap is used throughout all pages for style and responsiveness. 
  - Font Awesome 
@@ -92,7 +92,7 @@ combined with the home page image it gives clear idea for the purpose of the sit
 search of those users that are interested in this field.
 
 The site is giving multiple choices from where to navigate throughout the different pages and is easy to see and understand what to 
-expect when entering the desired page. All pages and content is easily accessible.
+expect when entering the desired page. All pages and content are easily accessible.
 
 The page showing the different events is well structured. Gives clarity about specific information for the users.
 
@@ -106,7 +106,7 @@ The signing form responds with warning messages if it is not filled correctly.
 The social media links in the footer provide the users with further knowledge and content on the subject to explore.
 
 * The project was shared with family and friend to be tested on different devises as well as to collect data 
-about their actual user experience. There was a positive feedback and conformation for the user experience testing above.
+about their actual user experience. There was a positive feedback and confirmation for the user experience testing above.
 
 
 ### Code Testing
@@ -181,7 +181,7 @@ All of the code not written by the developer in Retro Cars Club's website is fur
 
 ### Media
 
-* All the photos used in the project were taken by the me (the developer).
+* All the photos used in the project were taken by me (the developer).
 
 ### Acknowledgements
 

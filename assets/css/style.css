@@ -139,14 +139,11 @@ header nav h2 {
   background-color: #4e4e4e;
 }
 
-.p-gallery-style {
-  margin-bottom: 0;
-}
-
-.carousel-style {
-  max-width: 1200px;
-  margin: auto;
-  padding-bottom: 25px;
+.gallery-photo {
+  height: 70vh;
+  width: auto;
+  max-width: 98%;
+  object-fit: cover;
 }
 
 /* Join Us */

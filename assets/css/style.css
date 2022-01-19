@@ -132,18 +132,9 @@ header nav h2 {
 
 /* Gallery */
 
-.card-gallery {
-  border: 0;
-  text-align: center;
+.card-info-style {
+  background: #f57c00;
   color: #fafafa;
-  background-color: #4e4e4e;
-}
-
-.gallery-photo {
-  height: 70vh;
-  width: auto;
-  max-width: 98%;
-  object-fit: cover;
 }
 
 /* Join Us */
